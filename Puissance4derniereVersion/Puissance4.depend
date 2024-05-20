@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1715421085 source:c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\jeu.cpp
+
+1716208316 source:c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\main.cpp
+	<iostream>
+	"Partie.h"
+
+1716222230 source:c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\partie.cpp
+	<iostream>
+	"Partie.h"
+
+1715461092 source:c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\case.cpp
+	<iostream>
+	"Case.h"
+
+1716221608 c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\case.h
+
+1716208622 source:c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\plateau.cpp
+	<iostream>
+	<vector>
+	"Case.h"
+	"Plateau.h"
+
+1716221608 c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\plateau.h
+	"Case.h"
+	<vector>
+
+1716121914 source:c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\joueuria.cpp
+	<iostream>
+	<cstdlib>
+	"JoueurIA.h"
+
+1716222209 c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\partie.h
+	"Plateau.h"
+	"Joueur.h"
+	"JoueurHumain.h"
+
+1716221834 source:c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\joueur.cpp
+	<iostream>
+	"Joueur.h"
+
+1716205892 c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\joueur.h
+
+1716127569 c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\joueurhumain.h
+	"Joueur.h"
+
+1716127569 c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\joueuria.h
+	"Joueur.h"
+
+1716221920 source:c:\users\utilisateur\onedrive\documents\esilv\année 3\semestre 6\c++ et objet\puissance4\joueurhumain.cpp
+	<iostream>
+	"JoueurHumain.h"
+
