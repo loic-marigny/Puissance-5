@@ -1,20 +1,19 @@
-#include <iostream>
 #include "Case.h"
 
-using namespace std;
+Case::Case(std::string c, bool cj, int pl, int pc)
+    : couleur(c), contientJeton(cj), posLigne(pl), posColonne(pc) {}
 
-Case::Case(string c, bool cj, int pl, int pc) : couleur{c}, contientJeton{cj}, posLigne{pl}, posColonne{pc} {}
 Case::~Case() {}
 
-void Case::setCouleur(string c){
+void Case::setCouleur(std::string c) {
     couleur = c;
 }
 
-void Case::remplirCase(){
+void Case::remplirCase() {
     contientJeton = true;
 }
 
-string Case::getCouleur() const {
+std::string Case::getCouleur() const {
     return couleur;
 }
 

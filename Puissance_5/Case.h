@@ -2,20 +2,21 @@
 #define CASE_H_INCLUDED
 
 #include <string>
-using namespace std;
 
-class Case{
-private:
-    string couleur;
+class Case {
+protected:
+    std::string couleur;
     bool contientJeton;
     int posLigne;
     int posColonne;
+
 public:
-    Case(string c, bool cj, int pl, int pc);
+    Case(std::string c, bool cj, int pl, int pc);
     ~Case();
-    void setCouleur(string c);
+
+    void setCouleur(std::string c);
     void remplirCase();
-    string getCouleur() const;
+    std::string getCouleur() const;
     bool getContientJeton() const;
 };
 

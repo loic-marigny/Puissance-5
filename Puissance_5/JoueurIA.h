@@ -3,9 +3,11 @@
 
 #include "Joueur.h"
 
-class JoueurIA : public Joueur{
+class JoueurIA : public Joueur {
 public:
-    JoueurIA(string n, string c);
+    JoueurIA(std::string n, std::string c);
+    ~JoueurIA();
+
     int Joue() override;
 };
 

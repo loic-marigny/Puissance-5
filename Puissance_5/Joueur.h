@@ -1,17 +1,20 @@
 #ifndef JOUEUR_H_INCLUDED
 #define JOUEUR_H_INCLUDED
 
-using namespace std;
+#include <string>
 
-class Joueur{
+class Joueur {
 protected:
-    string nom;
-    string couleur;
+    std::string nom;
+    std::string couleur;
+
 public:
-    Joueur(string nom, string couleur);
-    ~Joueur();
-    string getNom() const { return nom; }
-    string getCouleur() const { return couleur; }
+    Joueur(std::string n, std::string c);
+    virtual ~Joueur();
+
+    std::string getNom() const;
+    std::string getCouleur() const;
+    virtual int Joue() = 0;
 };
 
 #endif // JOUEUR_H_INCLUDED
