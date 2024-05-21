@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1716318719 source:c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\case.cpp
+	"Case.h"
+
+1716318720 c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\case.h
+	<string>
+
+1716316858 source:c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\jeu.cpp
+
+1716318720 source:c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\joueur.cpp
+	"Joueur.h"
+
+1716318719 c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\joueur.h
+	<string>
+
+1716318719 source:c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\joueurhumain.cpp
+	"JoueurHumain.h"
+	<iostream>
+
+1716318719 c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\joueurhumain.h
+	"Joueur.h"
+
+1716318719 source:c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\joueuria.cpp
+	"JoueurIA.h"
+	<iostream>
+	<cstdlib>
+
+1716318720 c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\joueuria.h
+	"Joueur.h"
+
+1716319079 source:c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\main.cpp
+	<iostream>
+	"Partie.h"
+
+1716319235 c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\partie.h
+	"Plateau.h"
+	"JoueurHumain.h"
+	"JoueurIA.h"
+
+1716319235 c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\plateau.h
+	"Case.h"
+	<vector>
+
+1716319539 source:c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\plateau.cpp
+	"Plateau.h"
+	<iostream>
+
+1716319411 source:c:\users\maxime di\desktop\cours esilv\s6\informatique\language c_c++\projet\puissance_5\partie.cpp
+	"Partie.h"
+	<iostream>
+
